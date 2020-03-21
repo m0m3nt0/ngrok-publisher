@@ -5,7 +5,7 @@ NGROKCOMMAND="ngrok http https://localhost"
 SLACKWEBHOOK="https://hooks.slack.com/services/<TOKEN>/<TOKEN>/<TOKEN>"
 
 
-echo "Starting nGROCK"
+echo "Starting nGROK"
 gnome-terminal -- $NGROKCOMMAND
 sleep 2
 
